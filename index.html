@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Wizard Form with Validation - Responsive</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="html.design">
+<!-- description -->
+<meta name="description" content="Wizard Form with Validation - Responsive">
+<link rel="shortcut icon" href="images/favicon.ico">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Fontawesome CSS -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css">
+<!-- Fonts and icons -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet"> 
+<!-- Reset CSS -->
+<link rel="stylesheet" href="css/reset.css">
+<!-- Style CSS -->
+<link rel="stylesheet" href="css/style.css">
+<!-- Responsive  CSS -->
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<script>
+	function cal(zakat)
+	{
+	var n1 = parseFloat(document.getElementById("n1").value);
+	document.getElementById("result").value = n1*2.5/100;
+	}
+		</script>
+<body>
+
+<div class="wizard-main">
+	<div id="particles-js"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2 class="title-wb">الخدمات الإلكترونية للجنة الزكاة بقرية مشلة</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6 banner-sec">
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="carousel-item active">
+							<img class="d-block img-fluid" src="images/slider-01.jpg" alt="First slide">
+							<div class="carousel-caption d-none d-md-block">
+
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block img-fluid" src="images/slider-02.jpg" alt="First slide">
+							<div class="carousel-caption d-none d-md-block">
+
+
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block img-fluid" src="images/slider-03.jpg" alt="First slide">
+							<div class="carousel-caption d-none d-md-block">
+								<div class="banner-text">
+									<h2>This is Heaven</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+								</div>	
+							</div>
+						</div>
+					</div>	   
+				</div>
+			</div>
+			<div class="col-lg-6 login-sec">
+				<div class="login-sec-bg">
+					<h2 class="text-center">شروط وجوب زكاة المال</h2>
+					<form id="example-advanced-form" action="#" style="display: none;">
+						<h3>الأصول الثابتة حيث يجب على المسلم أن يقوم بإخراج الزكاة عن المال الذي بقي لديه لأكثر من عام كامل، وزاد عن النصب الشرعي وهو 595 جرام من الفضة أو 85 جرام من الذهب، بحيث يتوجب على المسلم إخراج ما يعادل 2,5% من قيمة هذا المال.</h3>
+						<fieldset class="form-input">
+							<h4>حاسبة زكاة المال الذكية</h4>
+
+							<label for="zakat">أدخل مقدار المال المراد إحتساب الزكاة عليه</label>
+							<input id="n1" type="number" class="form-control required">
+							<button onclick="cal()" class="btn btn-primary btn-lg btn-outline-danger" >=</button>
+							<label>إجمالي الزكاة المستحق إخراجها</label>
+							<input id="result" type="number" class="form-control required">
+						
+							<p> : للتبرع بالزكاة (*)</p>
+						<p>الإتصال علي رقم الحاج فاروق شاهين رئيس اللجنة 01140704777</p>
+						<p>الإتصال علي رقم أ.جمال كريم عضو اللجنة 01119461940</p>
+						<p>الإتصال علي رقم الشيخ سمير البرعي عضو اللجنة 01068192615</p>
+						</fieldset>
+
+						<h3>الذهب أو الفضة وغيرهما من المعادن الثمينة بحيث يجب على المسلم إخراج الزكاة فيهما سواء أراد المسلم أن يتاجر بهما أو يشتري بيت أو سيارة .</h3>
+						<fieldset class="form-input">
+		
+						</fieldset>
+
+						<h3> البهائم والأنعام فيجب على المسلم أن يخرج الزكاة عن هذه الأنعام، ومن الأمثلة على النصاب الشرعي للأنعام: أن نقوم بإخراج بقرة لا تقل عن سنتين من 30 بقرة، أو نخرج شاة واحدة عن الإبل التي تزيد على خمسة.</h3>
+						<fieldset class="form-input">
+							<h4></h4>
+						</fieldset>
+
+						<h3>المزروعات التي نزرعها في الأرض من الأشجار والحبوب فيجب أن نخرج الزكاة عنها.</h3>
+						<fieldset class="form-input">
+
+
+		
+						</fieldset>
+					</form>			
+				</div>
+			</div>			
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<p class="copyright text-center">All Rights Reserved. &copy; 2022<a href="#https://www.facebook.com/saeed.gamall/">تواصل معي عبر الفيسبوك</a> Design By : 
+					<a href="https://html.design/">المبرمج : سعيد جمال كريم</a>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- jquery latest version -->
+<script src="js/jquery.min.js"></script>
+<!-- popper.min.js -->
+<script src="js/popper.min.js"></script>    
+<!-- bootstrap js -->
+<script src="js/bootstrap.min.js"></script>
+<!-- jquery.steps js -->
+<script src='https://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.js'></script>
+<script src="js/jquery.steps.js"></script>
+<!-- particles js -->
+<script src="js/particles.js"></script>
+<script type="text/javascript">
+	// $(document).ready(function() {
+		// particlesJS("particles-js", 
+			// {
+			//   "particles": {
+				"number": {
+				  "value": 160,
+				  "density": {
+					"enable": true,
+					"value_area": 800
+				  }
+			
+</script>
+
+<script>
+	var form = $("#example-advanced-form").show();
+
+	form.steps({
+		headerTag: "h3",
+		bodyTag: "fieldset",
+		transitionEffect: "slideLeft",
+		onStepChanging: function (event, currentIndex, newIndex)
+		{
+			// Allways allow previous action even if the current form is not valid!
+			// if (currentIndex > newIndex)
+			{
+				// return true;
+			}
+			// Forbid next action on "Warning" step if the user is to young
+			// if (newIndex === 3 && Number($("#age").val()) < 18)
+			{
+				// return false;
+			}
+			// Needed in some cases if the user went back (clean up)
+			// if (currentIndex < newIndex)
+			{
+				// To remove error styles
+				// form.find(".body:eq(" + newIndex + ") label.error").remove();
+				// form.find(".body:eq(" + newIndex + ") .error").removeClass("error");
+			}
+			form.validate().settings.ignore = ":disabled,:hidden";
+			return form.valid();
+		},
+		onStepChanged: function (event, currentIndex, priorIndex)
+		{
+			// Used to skip the "Warning" step if the user is old enough.
+			// if (currentIndex === 2 && Number($("#age").val()) >= 18)
+			{
+				// form.steps("next");
+			}
+			// Used to skip the "Warning" step if the user is old enough and wants to the previous step.
+			// if (currentIndex === 2 && priorIndex === 3)
+			{
+				// form.steps("previous");
+			}
+		},
+		onFinishing: function (event, currentIndex)
+		{
+			// form.validate().settings.ignore = ":disabled";
+			// return form.valid();
+		},
+		onFinished: function (event, currentIndex)
+		{
+			
+		}
+	}).validate({
+		// errorPlacement: function errorPlacement(error, element) { element.before(error); },
+		rules: {
+			confirm: {
+			
+			}
+		}
+	});
+</script>
+
+</body>
+</html>
